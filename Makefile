@@ -1,8 +1,8 @@
 setup:
-	meson setup build --wipe
+	meson setup builddir wipe
 
 compile:
-	meson compile -C build
+	meson compile -C builddir
 
 run: compile
-	./build/src/lstuff
+	./builddir/src/lstuff
