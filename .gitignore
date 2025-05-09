@@ -1,4 +1,4 @@
 build
 .cache
-subprojects/*
-!subprojects/*.wrap
+subprojects
+!*.wrap
