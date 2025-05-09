@@ -1,5 +1,5 @@
 setup:
-	meson setup builddir wipe
+	meson setup builddir --wipe
 
 compile:
 	meson compile -C builddir
